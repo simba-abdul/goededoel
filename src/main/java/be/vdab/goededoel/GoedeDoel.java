@@ -3,8 +3,7 @@ package be.vdab.goededoel;
 import java.math.BigDecimal;
 public class GoedeDoel {
     private final String naam;
-    private BigDecimal opbrengst = BigDecimal.ZERO;
-
+    private BigDecimal opbrengst;
     public GoedeDoel(String naam) {
         this.naam = naam;
     }
